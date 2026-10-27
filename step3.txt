@@ -1,0 +1,12 @@
+Understand one line:
+to print top n lines-
+ANS = head
+run head -n 20 log_history.txt ;
+Timestamp                                  Thread     Type        Activity      PID    TTL  
+2026-10-25 12:05:45.378202+0530 0x1b18bb   Default     0x0        1             0      launchd: Remove subscription with token 939742
+
+Position        What you think it is        Why you think so
+First           Timestamp                   to keep track of timeline date and time.
+Second          thread                      don't know
+Third           PID                         process ID
+Fourth          TTL                         task performed

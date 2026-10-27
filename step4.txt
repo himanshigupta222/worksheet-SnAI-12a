@@ -1,0 +1,14 @@
+to search for a word in file
+ans : grep "<word>" <filename>
+
+What you searched for Roughly how
+much came back
+What you found
+wake           18       
+sleep          1
+google         3
+error          324
+network        9
+usb            0
+failed         27
+himanshi       5

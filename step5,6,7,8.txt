@@ -1,0 +1,26 @@
+step5 
+What’s in that file that you wouldn’t want a stranger reading?
+nothing - processes , when did i use my pc , what programs did i run
+
+step6
+in code.py
+
+head , output:
+Timestamp                       Thread     Type        Activity             PID    TTL  
+2026-10-25 12:05:44.437917+0530 0x1b18bb   Default     0x0                  1      0    launchd: Remove subscription with token 939655
+2026-10-25 12:05:44.448484+0530 0x1b18bb   Default     0x0                  1      0    launchd: Remove subscription with token 939656
+2026-10-25 12:05:44.459005+0530 0x1b18bb   Default     0x0                  1      0    launchd: Remove subscription with token 939657
+
+You just typed python3. Where does that program actually live?
+somewhere in system default folders
+which python3
+/Library/Frameworks/Python.framework/Versions/3.14/bin/python3
+
+step7
+break it 
+1st: No such file or directory
+2nd: chmod Permission denied
+3rd: expected ':'
+
+☺️ read the error first.🫡
+

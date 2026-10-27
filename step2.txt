@@ -1,0 +1,25 @@
+Capture a slice you can work with
+
+How to get logs of a specific time interval?
+steps:
+log --help ; nothing useful
+man log ; log show  [--last num[s|m|h|d] | boot] [--last24] [--today] [--yesterday]
+log show --last 1h ; still very much
+log show --last 1s ; 👍
+
+to store it in a file ?
+log show --last 50s > log_history.txt
+
+to check file size:
+        ls -lh log_history.txt [command seen from google.]
+        file size = 7 MB
+then run log show --last 30s > log_history.txt
+        file size = 4 MB 👍
+
+final path:
+/Users/himanshithegreat/desktop/worksheet/log_history.txt 
+to check no. of lines in it:
+command = wc -l < log_history.txt
+answer :- 17150 😮
+
+

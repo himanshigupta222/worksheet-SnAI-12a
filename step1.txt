@@ -1,0 +1,19 @@
+Start with man log. Read the first two paragraphs of DESCRIPTION, not the whole thing.
+Shape: two words
+
+My steps:
+man log
+log --help ; show            view/search system logs
+log show ; ^c 
+
+ANS = log show
+
+Second place to find logs:
+cd .. [x3]
+cd /var/log ; 
+        system.log
+        wifi.log  
+cat wifi.log;
+        Sun Oct 25 11:46:12.135 [airport]/ @[] (airportdMain.m:) dq:''/tid[] , checkin@[], fault[0] crash[0] threshold[5 sec], count[], gRunLoop: checkin@[] count[] last[] max[] diff[], faults[0], last faulted @count[0], thresholdExceeded[0]
+        contains wifi info  
+
